@@ -6,7 +6,7 @@ title: 'Bearing Witness'
 tagline: 'The Covid-19 & Inequality History Documentation Project'
 description: "Bearing Witness is an effort to document and interpret the events associated with the novel coronavirus epidemic in the United States as it pertains to racialized minorities."
 url: 'http://elotroalex.github.io'
-baseurl: ''
+baseurl: '/bearing-witness'
 
 # About/contact
 author:
