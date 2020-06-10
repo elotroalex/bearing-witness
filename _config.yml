@@ -2,9 +2,9 @@
 
 # Setup
 
-title: 'Sheldon I. Pollock'
-tagline: 'a complete bibliography and repository'
-description: "A complete bibliography and repository of Sheldon I. Pollock's scholarly work."
+title: 'Bearing Witness'
+tagline: 'The Covid-19 & Inequality History Documentation Project'
+description: "An effort to document and interpret the events associated with the novel coronavirus epidemic in the United States as it pertains to racialized minorities."
 url: 'http://elotroalex.github.io'
 baseurl: ''
 
@@ -55,7 +55,7 @@ plugins: ['jekyll/scholar']
 
 # Scholar
 scholar:
-  style: chicago-fullnote-bibliography
+  style: modern-language-association
   locale: en
 
   sort_by: year
@@ -65,9 +65,9 @@ scholar:
   group_order: ascending
 
   source: ./_bibliography
-  bibliography: references.bib
+  bibliography: bearing-witness.bib
   bibliography_template: bibliography
-  relative: "/ed/bibliography.html"
+  relative: "/texts/bibliography.html"
 
   # bibtex_filters: markdown
 
@@ -77,11 +77,11 @@ scholar:
   use_raw_bibtex_entry: true
   allow_locale_overrides: true
 
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
+  # details_dir:    
+  # details_layout: 
+  # details_link:   
 
-  repository: archive
+  # repository: 
 
   query: "@*"
 
